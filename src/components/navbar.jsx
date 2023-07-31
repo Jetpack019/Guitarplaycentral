@@ -22,6 +22,35 @@ function CustomNavbar() {
   };
 
 
+  const loginLinkStyles = {
+    ...linkStyles,
+    border: '2px solid white',
+    padding: '5px 10px',
+  };
+
+  const cartIconStyles = {
+    ...linkStyles,
+    color: 'white',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  };
+
+  const cartItemCountStyles = {
+    position: 'absolute',
+    top: '0',
+    right: '0',
+    background: 'red',
+    color: 'white',
+    borderRadius: '50%',
+    width: '20px',
+    height: '20px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '0.9rem',
+  };
+
 
 
   return (
@@ -61,7 +90,7 @@ function CustomNavbar() {
             to="/products"
             style={linkStyles}
           >
-            Products
+            Sales
           </Nav.Link>
           <Nav.Link
             as={NavLink}
@@ -72,7 +101,20 @@ function CustomNavbar() {
           </Nav.Link>
         
         </Nav>
-      
+        <Nav className="ml-auto">
+          <Nav.Link
+            href="/login"
+            style={loginLinkStyles}
+          >
+            Login
+          </Nav.Link>
+          <Nav.Link href="/signup" style={linkStyles}>
+            Signup
+          </Nav.Link>
+          <Nav.Link href="/addtocart" style={cartIconStyles}>
+     
+    </Nav.Link>
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   );

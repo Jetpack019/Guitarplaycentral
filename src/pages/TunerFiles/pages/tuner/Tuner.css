@@ -1,6 +1,7 @@
 Tuner.css
 
-.container {
+.container_tuner {
+  
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -15,12 +16,15 @@ Tuner.css
   flex-direction: column;
   width: 200px;
   height: 200px;
-  background-color: #353c41;
+  border-radius: 100%;
+  margin-left: 40px;
+  background-color: #FFE500;
   justify-content: center;
   align-items: center;
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(97, 255, 124, 0);
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(97, 255, 124, 0);
   color: #d0d7dc;
+
 }
 
 .resultContainer.tuned {
@@ -32,18 +36,21 @@ Tuner.css
   font-weight: 500;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  color: #000000;
 }
 
 .octave {
   font-size: 26px;
   font-weight: 400;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .cents {
   font-size: 70px;
   font-weight: 600;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .frequency {
@@ -51,6 +58,7 @@ Tuner.css
   font-size: 18px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
+   color: #000000;
 }
 
 .checkboxLabel {
@@ -60,17 +68,32 @@ Tuner.css
   font-size: 18px;
   padding: 8px 12px;
   border-radius: 5px;
-  height: 30px;
-  width: 40px;
-  background-color: red;
+  height: 40px;
+  width: 100%;
+  background-color: white;
 }
 
 .checkboxLabel.tuned {
-  background-color: #61FF7C;
+  background-color: #FFE500;
 }
 
 .checkboxWrapper {
   display: flex;
-  align-items: center;
+
   margin-top: 10px;
+  align-items: center;
+
+}
+
+
+.button_reset{
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 90px;
+  border-width: 0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
 }

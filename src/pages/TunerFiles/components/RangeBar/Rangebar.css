@@ -1,7 +1,7 @@
-RangeBar.css
 
-.container {
+.container_tuner {
   width: 250px;
+    margin-top: 50px;
 }
 
 .progressBarContainer {
@@ -11,6 +11,7 @@ RangeBar.css
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .progressBarContainer:before {

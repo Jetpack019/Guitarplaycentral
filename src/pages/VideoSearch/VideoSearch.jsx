@@ -82,7 +82,7 @@ const VideoSearch = () => {
   };
 
   return (
-   <div style={{backgroundColor:'black',height: '150vh'}}>
+   <div style={{backgroundColor:'black'}}>
     <CustomNavbar/>
   <Container className="video-play" style={{marginTop:'40px'}}>
         {selectedVideo ? (
@@ -169,14 +169,14 @@ const VideoSearch = () => {
               </button>
             </div>
           </Col>
-          <Col xs={12} md={10}>
+          <Col xs={12} style={{marginTop: '20px'}}>
             <Row className="video-list">
             {videos.map((video) => (
               <Col
                 key={video.id.videoId}
                 xs={12}
                 sm={6}
-                md={4}
+                md={3}
                 className={`video-item ${selectedVideo === video ? 'active' : ''}`}
                 onClick={() => handleVideoClick(video)}
               >
@@ -186,7 +186,7 @@ const VideoSearch = () => {
                     title={video.snippet.title}
                     src={`https://www.youtube.com/embed/${video.id.videoId}`}
                     frameBorder="0"
-                    allowFullScreen
+                    allowFullScreen 
                     className="embed-responsive-item"
                   ></iframe>
                 </div>

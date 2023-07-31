@@ -58,7 +58,7 @@ class Tuner extends Component {
       const { freq, cents, noteName, octave } = this.props.currentNote;
     const { stringTuneStatus } = this.state;
     return (
-      <div className="container">
+      <div className="container_tuner">
         <div className={`resultContainer ${this.isStandardTuneForString("e") ? "tuned" : ""}`}>
           <span className="noteName">
             {noteName}
@@ -81,7 +81,7 @@ class Tuner extends Component {
           <label className={`checkboxLabel ${this.isStandardTuneForString("E") ? "tuned" : ""}`}>E</label>
         </div>
 
-        <button onClick={this.resetCheckboxes}>Reset</button>
+        <button className="button_reset" onClick={this.resetCheckboxes}>Reset</button>
       </div>
     );
   }

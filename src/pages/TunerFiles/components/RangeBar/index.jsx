@@ -18,7 +18,7 @@ export default class RangeBar extends Component {
     };
 
     return (
-      <div className="container">
+      <div className="container_tuner">
         <div className="progressBarContainer" style={containerStyle}>
           <div className="progressBarWave" style={{ width: `${value}%` }} />
         </div>

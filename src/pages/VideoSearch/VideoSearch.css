@@ -58,7 +58,7 @@
   .video-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 80px;
+    grid-gap: 70px;
     margin-top: 20px;
   }
   
@@ -67,6 +67,9 @@
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.2s ease-in-out;
+    padding: 20px;
+    margin: auto;
+
   }
   
   .video-item:hover {
