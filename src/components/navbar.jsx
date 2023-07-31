@@ -27,7 +27,7 @@ function CustomNavbar() {
   return (
     <Navbar expand="lg" expanded={expanded} style={{ backgroundColor: "#000000", }}>
       <Navbar.Brand as={NavLink} to="/" style={linkStyles}>
-       COZY WEARS
+       GuitarPlay Central
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleNavToggle} />
       <Navbar.Collapse id="responsive-navbar-nav">
