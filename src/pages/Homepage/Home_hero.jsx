@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Home_hero() {
   const h1Styles = {
     color: 'white',
     fontSize: '3rem',
   };
-
-  const spanStyles = {
-    color: '#E97451',
-  };
+  const [backgroundImage, setBackgroundImage] = useState(
+    "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/band-on-stage.jpg')"
+  );
+  const [pauseText, setpauseText] = useState(
+    "Pause"
+  );
+    const spanStyles = {
+      color: '#FFE500',
+    };
 
   const pstyles = {
     color: 'white',
@@ -18,15 +23,16 @@ function Home_hero() {
 
   const buttonStyles = {
     borderRadius: '0', 
-    height: '50px',
-    color: '#E97451', 
- 
+    height: '60px',
+    width: '70px',
+    color: '#FFE500', 
+    fontWeight: 'bold'
   };
   return (
     <div
       className="hero-section"
       style={{
-        backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/band-on-stage.jpg')",
+        backgroundImage: backgroundImage,
         height: '100vh',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -36,13 +42,13 @@ function Home_hero() {
       <div className="container d-flex justify-content-center align-items-center text-center h-100">
         <div className="hero-content">
           <h1 style={h1Styles}>
-            <span style={spanStyles}>COZ</span>Y <span style={spanStyles}>WE</span>ARS
+            <span style={spanStyles}>GUITAR PLAY </span>CENTRAL
           </h1>
           <p style={pstyles}>
-          Your Online Destination for Warmth and Comfort
+          "Harmony Unleashed, Melodies Unlocked"
           </p>
-          <button type="button" className="btn btn-outline-light  btn-lg" style={buttonStyles}>
-            LEARN MORE
+          <button type="button" className="btn btn-outline-light  btn-lg" style={buttonStyles} onClick={() => setBackgroundImage("url('/images/woman-playing-guitar.jpg')")}>
+            | |  
           </button>
         </div>
       </div>
