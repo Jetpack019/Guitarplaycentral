@@ -7,6 +7,8 @@ import Home_Guitars from './Homepage/Home_Guitars'
 import Home_Tune from './Homepage/Home_Tune'
 import Home_Playground from './Homepage/Home_Playground'
 import Footer from './Homepage/Footer'
+import Home_Deals from './Homepage/Home_Deals'
+import Home_Join from './Homepage/Home_Join'
 
 function Homepage() {
   return (
@@ -18,6 +20,8 @@ function Homepage() {
           <Home_Guitars/>
           <Home_Tune/>
           <Home_Playground/>
+          <Home_Deals/>
+          <Home_Join/>
           <Footer/>
     </div>
   )

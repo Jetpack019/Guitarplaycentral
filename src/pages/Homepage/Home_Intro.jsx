@@ -22,7 +22,7 @@ function Home_Intro() {
         backgroundColor: 'black',
       }}
     >
-      <div style={{ textAlign: 'center' ,paddingTop:'120px'}}>
+      <div style={{ textAlign: 'center' ,paddingTop:'150px'}}>
         <Col>
           <div
             style={{
@@ -57,6 +57,7 @@ function Home_Intro() {
             )}
             <img
               style={{
+                cursor:'pointer',
                 width: animationButton ? '300px' : '200px',
                 height: animationButton ? '300px' : '200px',
                 backgroundColor: 'black',
