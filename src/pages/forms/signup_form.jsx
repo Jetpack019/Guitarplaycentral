@@ -41,7 +41,7 @@ function Signup_form() {
     border: '0',
   };
   return (
-    <div style={{height: '120vh', backgroundColor:'black'}}>
+    <div style={{height: '130vh', backgroundColor:'black'}}>
     <div className="container " >
    <div className="row justify-content-center">
      <div className="col-md-5">

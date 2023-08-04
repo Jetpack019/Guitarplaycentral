@@ -108,9 +108,9 @@ const VideoSearch = () => {
           </Container>
         )}
            <Container className='text-video' >
-          <h1 style={h1Styles}>Cozy Fashion: Where Comfort Meets Style.</h1>
+          <h1 style={h1Styles}>Inspiring Guitar Performances & Expert Tutorials</h1>
           <p style={pstyles} >
-            Comfortable and stylish clothing is no longer mutually exclusive, thanks to the latest trend in fashion - cozywear. Cozywear has become a staple in many people's wardrobes, with its versatility and practicality making it a popular choice for any occasion.
+          Welcome to GuitarPlay Central's captivating video collection, where you'll find remarkable guitar performances from talented musicians and comprehensive tutorials to enhance your playing skills. Unleash your passion for music and explore a world of fretboard magic with our diverse range of guitar-centric videos.
           </p>
         </Container>
       </Container>

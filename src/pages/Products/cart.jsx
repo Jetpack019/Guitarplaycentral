@@ -18,7 +18,7 @@ function Cart({ cartItems, onIncreaseQuantity, onDecreaseQuantity, removeFromCar
               </Col>
               <Col xs={12} sm={8} className="cart-item-details">
                 <p className="cart-item-type">{item.type}</p>
-                <p className="cart-item-info">Style: {item.styles}</p>
+                <p className="cart-item-info">Type: {item.styles}</p>
                 <p className="cart-item-info">Occasions: {item.occasions}</p>
                 <p className="cart-item-info">Materials: {item.materials}</p>
                 <p className="cart-item-info">Price: ${item.price}</p>

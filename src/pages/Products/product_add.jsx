@@ -37,12 +37,12 @@ function Product_AddCart() {
 
   
   return (
-    <div style={{backgroundColor:'black'}}>
+    <div style={{backgroundColor:'black',height:'150vh'}}>
       <CartNavbar />
       <div className="hero-section"
         style={{
-          backgroundImage: product && product.image
-            ? `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(${product.image})`
+          backgroundImage: product && product.imageBackground
+            ? `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(${product.imageBackground})`
             : "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8))",
           height: '30vh',
           backgroundSize: 'cover',
@@ -79,7 +79,7 @@ function Product_AddCart() {
             </div>
             <div className="col-lg-6">
               <div className="product-info" style={{backgroundColor:'black'}}>
-                <p className="lead">Style: {product.styles}</p>
+                <p className="lead">Type: {product.styles}</p>
                 <p className="lead">Occasions: {product.occasions}</p>
                 <p className="lead">Materials: {product.materials}</p>
                 <p className="lead">Price: ${product.price}</p>

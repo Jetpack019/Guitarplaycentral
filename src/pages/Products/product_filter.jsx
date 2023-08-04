@@ -13,22 +13,22 @@ const categoriesData = {
 
 
 const labelstyles = {
-color: 'white',
+color: 'black',
 fontSize: '1rem',
 marginRight: '10px', 
 alignSelf: 'flex-start'
 };
 
 const h3styles = {
-color: 'white',
-fontSize: '2rem',
+color: 'black',
+fontSize: '1.5rem',
 textAlign: 'center',
 marginTop: '30px'
 };
 
 const inputstyles = {
 borderWidth: '0',
-color: '#E97451',    
+color: 'black',    
 marginRight: '5px'
 };
 
@@ -42,7 +42,7 @@ const products = [
     occasions: 'Concert',
     materials: 'Spruce',
     image: 'images/acoustic/acoustic_classical.webp',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_1.jpg',
     price: 699.99,
   },
   {
@@ -54,7 +54,7 @@ const products = [
     occasions: 'Recording',
     materials: 'Ash',
     image: 'images/electric/electric_telecaster.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_elec1.jpg',
     price: 899.99,
   },
   {
@@ -66,7 +66,7 @@ const products = [
     occasions: 'Live Performance',
     materials: 'Basswood',
     image: 'images/bass/bass_precision.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_bass1.jpg',
     price: 799.99,
   },
   {
@@ -78,7 +78,7 @@ const products = [
     occasions: 'All',
     materials: 'Leather',
     image: 'images/accessories/acc_strap.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_acc1.jpg',
     price: 19.99,
   },
   {
@@ -90,7 +90,7 @@ const products = [
     occasions: 'All',
     materials: 'Plastic',
     image: 'images/sale/sale_tuner.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_sale1.jpg',
     price: 14.99,
   },
   {
@@ -102,7 +102,7 @@ const products = [
     occasions: 'Casual',
     materials: 'Cedar',
     image: 'images/acoustic/acoustic_folk.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_2.jpg',
     price: 549.99,
   },
   {
@@ -114,7 +114,7 @@ const products = [
     occasions: 'Concert',
     materials: 'Mahogany',
     image: 'images/electric/electric_lespaul.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_elec2.jpg',
     price: 1199.99,
   },
   {
@@ -126,7 +126,7 @@ const products = [
     occasions: 'Recording',
     materials: 'Alder',
     image: 'images/bass/bass_jazz.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_bass2.jpg',
     price: 699.99,
   },
   {
@@ -138,7 +138,7 @@ const products = [
     occasions: 'All',
     materials: 'Plastic',
     image: 'images/accessories/acc_picks.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_acc2.jpg',
     price: 0.99,
   },
   {
@@ -150,7 +150,7 @@ const products = [
     occasions: 'All',
     materials: 'Steel',
     image: 'images/sale/sale_strings.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_sale2.jpg',
     price: 9.99,
   },
   {
@@ -162,7 +162,7 @@ const products = [
     occasions: 'Dance Performance',
     materials: 'Cypress',
     image: 'images/acoustic/acoustic_flamenco.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_3.jpg',
     price: 899.99,
   },
   {
@@ -174,7 +174,7 @@ const products = [
     occasions: 'Rock Concert',
     materials: 'Mahogany',
     image: 'images/electric/electric_SG.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_elec3.jpg',
     price: 999.99,
   },
   {
@@ -186,7 +186,7 @@ const products = [
     occasions: 'Metal Performance',
     materials: 'Mahogany',
     image: 'images/bass/bass_thunderbird.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_bass3.jpg',
     price: 1199.99,
   },
   {
@@ -198,7 +198,7 @@ const products = [
     occasions: 'All',
     materials: 'Wood',
     image: 'images/accessories/acc_stand.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_acc3.jpg',
     price: 29.99,
   },
   {
@@ -210,7 +210,7 @@ const products = [
     occasions: 'All',
     materials: 'Metal',
     image: 'images/sale/sale_capo.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_sale3.jpg',
     price: 12.99,
   },
   {
@@ -222,7 +222,7 @@ const products = [
     occasions: 'Outdoor Event',
     materials: 'Maple',
     image: 'images/acoustic/acoustic_jumbo.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_4.jpg',
     price: 799.99,
   },
   {
@@ -234,7 +234,7 @@ const products = [
     occasions: 'Metal Concert',
     materials: 'Mahogany',
     image: 'images/electric/electric_flyingv.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_elec4.jpg',
     price: 1299.99,
   },
   {
@@ -246,7 +246,7 @@ const products = [
     occasions: 'Funk Performance',
     materials: 'Basswood',
     image: 'images/bass/bass_musicman.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_bass4.jpg',
     price: 899.99,
   },
   {
@@ -258,7 +258,7 @@ const products = [
     occasions: 'All',
     materials: 'Hardshell',
     image: 'images/accessories/acc_cover.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_acc3.jpg',
     price: 69.99,
   },
   {
@@ -270,7 +270,7 @@ const products = [
     occasions: 'All',
     materials: 'Glass',
     image: 'images/sale/sale_slide.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_sale4.jpg',
     price: 8.99,
   },
   {
@@ -282,7 +282,7 @@ const products = [
     occasions: 'Country Music',
     materials: 'Rosewood',
     image: 'images/acoustic/acoustic_dreadnaught.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_5.jpg',
     price: 899.99,
   },
   {
@@ -294,7 +294,7 @@ const products = [
     occasions: 'Jazz Concert',
     materials: 'Maple',
     image: 'images/electric/electric_hollowbody.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_elec5.jpg',
     price: 1099.99,
   },
   {
@@ -306,7 +306,7 @@ const products = [
     occasions: 'Experimental Performance',
     materials: 'Alder',
     image: 'images/bass/bass_doubleneck.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_bass5.jpg',
     price: 1499.99,
   },
   {
@@ -318,7 +318,7 @@ const products = [
     occasions: 'All',
     materials: 'Microfiber',
     image: 'images/accessories/acc_cleanser.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_acc5.jpg',
     price: 7.99,
   },
   {
@@ -330,7 +330,7 @@ const products = [
     occasions: 'All',
     materials: 'Sponge',
     image: 'images/sale/sale_humidifier.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_sale5.jpg',
     price: 11.99,
   },
   {
@@ -342,7 +342,7 @@ const products = [
     occasions: 'Intimate Performance',
     materials: 'Mahogany',
     image: 'images/acoustic/acoustic_parlor.webp',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_6.jpg',
     price: 599.99,
   },
   {
@@ -354,7 +354,7 @@ const products = [
     occasions: 'Metal Concert',
     materials: 'Basswood',
     image: 'images/electric/electric_iceman.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_elec6',
     price: 999.99,
   },
   {
@@ -366,7 +366,7 @@ const products = [
     occasions: 'Rock Performance',
     materials: 'Maple',
     image: 'images/bass/bass_rickenbacker.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_bass6.jpg',
     price: 1399.99,
   },
   {
@@ -378,7 +378,7 @@ const products = [
     occasions: 'All',
     materials: 'Metal',
     image: 'images/accessories/acc_hanger.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_acc6.jpg',
     price: 17.99,
   },
   {
@@ -390,7 +390,7 @@ const products = [
     occasions: 'All',
     materials: 'Wood',
     image: 'images/sale/sale_stand.jpg',
-    imageBackground:'images/electric.jpg',
+    imageBackground:'images/loc/loc_sale6.jpg',
     price: 22.99,
   },
 ];
@@ -491,7 +491,7 @@ function ProductFilter() {
   
   return (
     <div>
-            <div className="hero-section"
+        <div className="hero-section"
         style={{
           backgroundImage:  `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("images/electric.jpg")`,
           height: '20vh',
@@ -510,7 +510,6 @@ function ProductFilter() {
         </div>
       </div>
       <div  style={{ height: '100% ', overflowY: 'auto',paddingTop:'20px' }}>
-        
         <div className="product-filter d-flex flex-wrap justify-content-center">
               {text_buttons.map((button, index) => (
                 <button
@@ -526,7 +525,7 @@ function ProductFilter() {
           <div className="sidebar" >
             <h3 style={h3styles}>CATEGORY</h3>
             <div className="category-section">
-              <h3 style={h3styles}>Styles:</h3>
+              <h3 style={h3styles}>Type:</h3>
               {renderCheckboxes('styles')}
             </div>
             <div className="category-section">
@@ -552,7 +551,7 @@ function ProductFilter() {
                 </div>
             </div>
           </div>
-          <div className="container"  >
+          <div className="container" style={{borderLeft: '2px solid black'}} >
           
           <div className="product-cards-container" >
           {getFilteredProducts().map((product) => (
