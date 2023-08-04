@@ -2,13 +2,15 @@ import React, { useState } from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink } from 'react-router-dom';
-
+import { FaShoppingCart } from 'react-icons/fa';
 import '../components/customnavbar.css';
+import { useCart } from '../pages/Products/Cart_Content';
 
 
 function CustomNavbar() {
   const [expanded, setExpanded] = useState(false);
-
+  const { cartItems } = useCart();
+  const cartItemCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
   const handleNavToggle = () => {
     setExpanded(!expanded);
   };
@@ -112,7 +114,8 @@ function CustomNavbar() {
             Signup
           </Nav.Link>
           <Nav.Link href="/addtocart" style={cartIconStyles}>
-     
+      <FaShoppingCart style={{ fontSize: '1.5rem' }} />
+      {cartItemCount > 0 && <span style={cartItemCountStyles}>{cartItemCount}</span>}
     </Nav.Link>
         </Nav>
       </Navbar.Collapse>
