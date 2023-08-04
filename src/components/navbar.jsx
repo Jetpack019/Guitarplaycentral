@@ -58,7 +58,7 @@ function CustomNavbar() {
   return (
     <Navbar expand="lg" expanded={expanded} style={{ backgroundColor: "#000000", }}>
       <Navbar.Brand as={NavLink} to="/" style={linkStyles}>
-       <img src="/images/Logo-GuitarPlay.png" alt="" style={{height:'8%',width:'8%',margin:'auto'}}/>
+       <img src="/images/Logo-GuitarPlay.png" alt="" style={{height:'7%',width:'7%',margin:'auto'}}/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleNavToggle} />
       <Navbar.Collapse id="responsive-navbar-nav">
