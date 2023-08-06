@@ -12,7 +12,7 @@ function Home_Music() {
     
       const pstyles = {
         color: 'white',
-        fontSize: '1.4rem',
+        fontSize: '1.2rem',
         FontFace: 'Montserrat',
         marginTop:'20px',
         paddingRight:'80px'
@@ -37,7 +37,7 @@ function Home_Music() {
                 Unlock the <span style={spanStyles}> Music Within You</span>
                 </h1>
                 <p style={pstyles}>
-                Whether you're a casual strummer or a professional performer, GuitarPlay Central is your gateway to musical fulfillment. 
+                With a wide range of tutorials, resources, and a supportive community, GuitarPlay Central empowers guitar enthusiasts of all skill levels to enhance their playing, explore new genres, and share their passion for music with like-minded individuals from around the world. Whether you dream of playing to a packed stadium or simply enjoy strumming by the campfire, GuitarPlay Central is the ultimate destination for all things guitar.
                 </p>
             
                 </div>
