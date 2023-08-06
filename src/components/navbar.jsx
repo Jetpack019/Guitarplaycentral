@@ -101,7 +101,9 @@ function CustomNavbar() {
           >
             Blog
           </Nav.Link>
-        
+          <Nav.Link href="/about" style={linkStyles}>
+            About
+          </Nav.Link>
         </Nav>
         <Nav className="ml-auto">
           <Nav.Link
@@ -113,6 +115,7 @@ function CustomNavbar() {
           <Nav.Link href="/signup" style={linkStyles}>
             Signup
           </Nav.Link>
+
           <Nav.Link href="/addtocart" style={cartIconStyles}>
       <FaShoppingCart style={{ fontSize: '1.5rem' }} />
       {cartItemCount > 0 && <span style={cartItemCountStyles}>{cartItemCount}</span>}

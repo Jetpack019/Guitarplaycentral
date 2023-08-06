@@ -18,12 +18,7 @@ function Home_Music() {
         paddingRight:'80px'
       };
     
-      const buttonStyles = {
-        borderRadius: '0', 
-        height: '50px',
-        color: '#E97451', 
-     
-      };
+
   return (
     <div style={{backgroundColor:'black', height: '100vh',}}>
           <div

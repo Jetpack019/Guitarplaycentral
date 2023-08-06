@@ -11,6 +11,7 @@ import Signup from "./pages/Signup";
 import Product_AddCart from "./pages/Products/product_add";
 import AllProducts from "./pages/Products/allproduct";
 import Checkout_Process from "./pages/Products/Checkout_Process";
+import About from "./pages/About";
 const App = () => {
   return (
     <Router> {/* Wrap the Router with BrowserRouter */}
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/checkout" element={<Checkout_Process/>} />
+        <Route path="/about" element={<About/>} />
       </Routes>
     </Router>
   );
